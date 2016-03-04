@@ -19,7 +19,6 @@ class ViewController: UIViewController, ComGsortinoSharedViewMainMvpView {
 
         _mainPresenter.attachViewWithId(self)
         _mainPresenter.attachNetworkInterfaceWithComGsortinoSharedNetworkNetworkInterface(net)
-
         _mainPresenter.loadDataWithNSString("google", withNSString: "j2objc")
     }
 
@@ -28,7 +27,10 @@ class ViewController: UIViewController, ComGsortinoSharedViewMainMvpView {
     }
     
     func showListWithJavaUtilArrayList(objItems: JavaUtilArrayList!) {
+//        let _tmp = objItems.toArrayWithNSObjectArray()
+//        for var tmp in objItems.toArray() {
         
+//        }
         print("objItems: \(objItems)")
     }
 

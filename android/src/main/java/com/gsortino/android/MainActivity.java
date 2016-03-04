@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements MainMvpView {
         presenter.attachView(this);
         presenter.attachNetworkInterface(NetworkService.getInstance());
 
-        presenter.loadData("giack87","test");
+        presenter.loadData("google","j2objc");
     }
 
     @Override

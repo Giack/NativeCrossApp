@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B1FED01B2A3CC2821B6B6668'
+               BlueprintIdentifier = 'F7E241C1E2BA35A910847CC0'
                BlueprintName = 'Pods-NativeCrossApp'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_NativeCrossApp.framework'>

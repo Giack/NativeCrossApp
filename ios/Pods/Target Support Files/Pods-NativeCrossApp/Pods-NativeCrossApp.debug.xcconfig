@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = /Users/gsortino/Android/j2objc-0.9.8.2.1/include /Users/gsortino/TestProject/NativeCrossApp/shared/build/j2objcOutputs/src/main/objc $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/j2objc-shared-debug" "${PODS_ROOT}/Headers/Public/j2objc-shared-release"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = /Users/gsortino/Android/j2objc-0.9.8.2.1/lib
+LIBRARY_SEARCH_PATHS = /Users/gsortino/Android/j2objc-0.9.8.2.1/lib $(inherited) "${PODS_ROOT}/../../shared/build/j2objcOutputs/lib/iosDebug"
 OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/j2objc-shared-debug" -isystem "${PODS_ROOT}/Headers/Public/j2objc-shared-release"
-OTHER_LDFLAGS = $(inherited) -l"ObjC" -l"guava" -l"icucore" -l"javax_inject" -l"jre_emul" -l"jsr305" -l"z"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ObjC" -l"guava" -l"icucore" -l"javax_inject" -l"jre_emul" -l"jsr305" -l"shared-j2objc" -l"z"
 PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-NativeCrossApp
 PODS_ROOT = ${SRCROOT}/Pods
