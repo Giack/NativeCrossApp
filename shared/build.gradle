@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'com.github.j2objccontrib.j2objcgradle' version '0.6.0-alpha'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+j2objcConfig {
+    // Sets up libraries you depend on
+    autoConfigureDeps true
+    testMinExpectedTests 0
+
+    // Omit these two lines if you don't configure your Xcode project with CocoaPods
+    xcodeProjectDir '../ios'  //  suggested directory name
+    xcodeTargetsIos 'NativeCrossApp'  // replace with your iOS targets
+
+    finalConfigure()          // Must be last call to configuration
+}

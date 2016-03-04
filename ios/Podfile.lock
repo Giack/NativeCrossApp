@@ -1,0 +1,19 @@
+PODS:
+  - j2objc-shared-debug (1.0)
+  - j2objc-shared-release (1.0)
+
+DEPENDENCIES:
+  - j2objc-shared-debug (from `../shared/build/j2objcOutputs`)
+  - j2objc-shared-release (from `../shared/build/j2objcOutputs`)
+
+EXTERNAL SOURCES:
+  j2objc-shared-debug:
+    :path: ../shared/build/j2objcOutputs
+  j2objc-shared-release:
+    :path: ../shared/build/j2objcOutputs
+
+SPEC CHECKSUMS:
+  j2objc-shared-debug: 6ade8e48705fe54a129e860811932b17b5f56e82
+  j2objc-shared-release: ae10cbc7fa3ca2183714b2e3a4b0032c6e3744f8
+
+COCOAPODS: 0.39.0
