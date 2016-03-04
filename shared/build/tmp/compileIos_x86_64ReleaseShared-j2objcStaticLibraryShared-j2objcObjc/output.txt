@@ -1,0 +1,4 @@
+See file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/compileIos_x86_64ReleaseShared-j2objcStaticLibraryShared-j2objcObjc/output.txt for all output for compileIos_x86_64ReleaseShared-j2objcStaticLibraryShared-j2objcObjc.
+compiling MainPresenter.m successful.
+
+Finished compileIos_x86_64ReleaseShared-j2objcStaticLibraryShared-j2objcObjc, see full log file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/compileIos_x86_64ReleaseShared-j2objcStaticLibraryShared-j2objcObjc/output.txt.

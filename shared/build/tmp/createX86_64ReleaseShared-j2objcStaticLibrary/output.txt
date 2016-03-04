@@ -1,0 +1,5 @@
+See file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/createX86_64ReleaseShared-j2objcStaticLibrary/output.txt for all output for createX86_64ReleaseShared-j2objcStaticLibrary.
+archiving libshared-j2objc.a successful.
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: /Users/gsortino/TestProject/NativeCrossApp/shared/build/binaries/shared-j2objcStaticLibrary/x86_64Release/libshared-j2objc.a(Empty.o) has no symbols
+
+Finished createX86_64ReleaseShared-j2objcStaticLibrary, see full log file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/createX86_64ReleaseShared-j2objcStaticLibrary/output.txt.

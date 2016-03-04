@@ -1,0 +1,2 @@
+See file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/compileDebugTestJ2objcExecutableTestJ2objcObjc/output.txt for all output for compileDebugTestJ2objcExecutableTestJ2objcObjc.
+Finished compileDebugTestJ2objcExecutableTestJ2objcObjc, see full log file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/compileDebugTestJ2objcExecutableTestJ2objcObjc/output.txt.

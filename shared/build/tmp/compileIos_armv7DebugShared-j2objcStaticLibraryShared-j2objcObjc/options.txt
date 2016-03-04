@@ -1,0 +1,17 @@
+-x
+objective-c
+-c
+-I/Users/gsortino/Android/j2objc-0.9.8.2.1/include
+-Werror
+-Wno-parentheses
+-fno-strict-overflow
+-std=c11
+-g
+-DDEBUG=1
+-I
+/Users/gsortino/TestProject/NativeCrossApp/shared/build/j2objcSrcGenMain
+-arch
+armv7
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk
+-miphoneos-version-min=8.3
