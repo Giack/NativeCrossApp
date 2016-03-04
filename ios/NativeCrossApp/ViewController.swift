@@ -23,9 +23,7 @@ class ViewController: UIViewController, ComGsortinoSharedViewMainMvpView {
     }
     
     func showListWithJavaUtilArrayList(objItems: JavaUtilArrayList!) {
-        for entry in objItems {
-            
-        }
+        
     }
 
     func hideProgressIndicator() {

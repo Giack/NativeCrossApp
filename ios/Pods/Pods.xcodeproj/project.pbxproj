@@ -26,8 +26,6 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C92C58829E7252D9B1F3A7B1FC3CC236 /* Pods_NativeCrossApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeCrossApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19EEF42FB3DFA6042DA47BF95E226CB /* Pods-NativeCrossApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NativeCrossApp.modulemap"; sourceTree = "<group>"; };
-		D4145E98EF7E5C3866DBF03FA5A61865 /* libshared-j2objc.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libshared-j2objc.a"; path = "lib/iosDebug/libshared-j2objc.a"; sourceTree = "<group>"; };
-		E3C2F8D64808D7DCFBE54751F11BB9A3 /* libshared-j2objc.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libshared-j2objc.a"; path = "lib/iosRelease/libshared-j2objc.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +48,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		16C3ADEC7FDE0932FBCEF70206AB2C45 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A2C1FEFE7772A0A213792DD276B4980 /* j2objc-shared-debug */,
+				1DFC6CF3EC8D3C6ACAAC91E8E08B0566 /* j2objc-shared-release */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		1AEDF4CAD874F9533BB6F8D03246BA8E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,23 +65,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		1DFC6CF3EC8D3C6ACAAC91E8E08B0566 /* j2objc-shared-release */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "j2objc-shared-release";
+			path = ../../shared/build/j2objcOutputs;
+			sourceTree = "<group>";
+		};
+		7A2C1FEFE7772A0A213792DD276B4980 /* j2objc-shared-debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "j2objc-shared-debug";
+			path = ../../shared/build/j2objcOutputs;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				EC3A2B352EFD9B8718390BC88D67A651 /* Development Pods */,
+				16C3ADEC7FDE0932FBCEF70206AB2C45 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				080BCAD778263B382CDAB9A1E85236D2 /* Products */,
 				1AEDF4CAD874F9533BB6F8D03246BA8E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B6D5D1E76391125A45AA5D81017D3FA8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D4145E98EF7E5C3866DBF03FA5A61865 /* libshared-j2objc.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -93,24 +108,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CA295A9964B6663A92210C40BC0D3C3B /* j2objc-shared-debug */ = {
-			isa = PBXGroup;
-			children = (
-				B6D5D1E76391125A45AA5D81017D3FA8 /* Frameworks */,
-			);
-			name = "j2objc-shared-debug";
-			path = ../../shared/build/j2objcOutputs;
-			sourceTree = "<group>";
-		};
-		DAF8196ABD0B9AD281E179322443E8AB /* j2objc-shared-release */ = {
-			isa = PBXGroup;
-			children = (
-				EA3F261581664D54AE94A56585FB3811 /* Frameworks */,
-			);
-			name = "j2objc-shared-release";
-			path = ../../shared/build/j2objcOutputs;
-			sourceTree = "<group>";
-		};
 		E9FDA41713D79BE543385E4A603D67FD /* Pods-NativeCrossApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,23 +124,6 @@
 			);
 			name = "Pods-NativeCrossApp";
 			path = "Target Support Files/Pods-NativeCrossApp";
-			sourceTree = "<group>";
-		};
-		EA3F261581664D54AE94A56585FB3811 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E3C2F8D64808D7DCFBE54751F11BB9A3 /* libshared-j2objc.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EC3A2B352EFD9B8718390BC88D67A651 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CA295A9964B6663A92210C40BC0D3C3B /* j2objc-shared-debug */,
-				DAF8196ABD0B9AD281E179322443E8AB /* j2objc-shared-release */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
