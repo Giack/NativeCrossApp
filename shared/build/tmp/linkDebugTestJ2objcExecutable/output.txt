@@ -1,4 +1,0 @@
-See file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/linkDebugTestJ2objcExecutable/output.txt for all output for linkDebugTestJ2objcExecutable.
-linking testJ2objc successful.
-
-Finished linkDebugTestJ2objcExecutable, see full log file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/linkDebugTestJ2objcExecutable/output.txt.

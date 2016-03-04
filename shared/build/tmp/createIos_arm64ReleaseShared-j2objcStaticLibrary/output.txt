@@ -1,4 +1,0 @@
-See file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/createIos_arm64ReleaseShared-j2objcStaticLibrary/output.txt for all output for createIos_arm64ReleaseShared-j2objcStaticLibrary.
-archiving libshared-j2objc.a successful.
-
-Finished createIos_arm64ReleaseShared-j2objcStaticLibrary, see full log file:///Users/gsortino/TestProject/NativeCrossApp/shared/build/tmp/createIos_arm64ReleaseShared-j2objcStaticLibrary/output.txt.
