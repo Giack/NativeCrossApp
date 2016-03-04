@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9D00C72AB916C01A0F4C4388 /* Pods_NativeCrossApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5616A691FBDEA35BE01446D4 /* Pods_NativeCrossApp.framework */; };
+		C303F8EB1C89F3650050A673 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303F8EA1C89F3650050A673 /* CustomCell.swift */; };
 		E67DA07A1C88882000C63B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67DA0791C88882000C63B55 /* AppDelegate.swift */; };
 		E67DA07C1C88882000C63B55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67DA07B1C88882000C63B55 /* ViewController.swift */; };
 		E67DA07F1C88882000C63B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67DA07D1C88882000C63B55 /* Main.storyboard */; };
 		E67DA0811C88882000C63B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67DA0801C88882000C63B55 /* Assets.xcassets */; };
 		E67DA0841C88882000C63B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67DA0821C88882000C63B55 /* LaunchScreen.storyboard */; };
 		E6A7702C1C89D06600B4A5A6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A7702B1C89D06600B4A5A6 /* Network.swift */; };
+		EBDE3D38248B9542C726D564 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DAAFD89F2337CFF7E3454C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		084EB465585012B171DC2A14 /* Pods-NativeCrossApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeCrossApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeCrossApp/Pods-NativeCrossApp.release.xcconfig"; sourceTree = "<group>"; };
 		3BA9A801BCC4256345832907 /* Pods-NativeCrossApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeCrossApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeCrossApp/Pods-NativeCrossApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5616A691FBDEA35BE01446D4 /* Pods_NativeCrossApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeCrossApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DAAFD89F2337CFF7E3454C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C303F8EA1C89F3650050A673 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		E67DA0761C88882000C63B55 /* NativeCrossApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeCrossApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67DA0791C88882000C63B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E67DA07B1C88882000C63B55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D00C72AB916C01A0F4C4388 /* Pods_NativeCrossApp.framework in Frameworks */,
+				EBDE3D38248B9542C726D564 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				5616A691FBDEA35BE01446D4 /* Pods_NativeCrossApp.framework */,
+				B5DAAFD89F2337CFF7E3454C /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,9 +87,10 @@
 		E67DA0781C88882000C63B55 /* NativeCrossApp */ = {
 			isa = PBXGroup;
 			children = (
-				E6A7702B1C89D06600B4A5A6 /* Network.swift */,
 				E67DA0791C88882000C63B55 /* AppDelegate.swift */,
 				E67DA07B1C88882000C63B55 /* ViewController.swift */,
+				E6A7702B1C89D06600B4A5A6 /* Network.swift */,
+				C303F8EA1C89F3650050A673 /* CustomCell.swift */,
 				E67DA07D1C88882000C63B55 /* Main.storyboard */,
 				E67DA0801C88882000C63B55 /* Assets.xcassets */,
 				E67DA0821C88882000C63B55 /* LaunchScreen.storyboard */,
@@ -175,7 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeCrossApp/Pods-NativeCrossApp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		947D1F7CB7797E3B568CFB92 /* Copy Pods Resources */ = {
@@ -217,6 +224,7 @@
 			files = (
 				E67DA07C1C88882000C63B55 /* ViewController.swift in Sources */,
 				E67DA07A1C88882000C63B55 /* AppDelegate.swift in Sources */,
+				C303F8EB1C89F3650050A673 /* CustomCell.swift in Sources */,
 				E6A7702C1C89D06600B4A5A6 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,8 +341,23 @@
 			baseConfigurationReference = 3BA9A801BCC4256345832907 /* Pods-NativeCrossApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"/Users/gsortino/Android/j2objc-0.9.8.2.1/include",
+					/Users/gsortino/TestProject/NativeCrossApp/shared/build/j2objcOutputs/src/main/objc,
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/j2objc-shared-debug\"",
+					"\"${PODS_ROOT}/Headers/Public/j2objc-shared-release\"",
+					"/Users/gsortino/Android/j2objc-0.9.8.2.1/include",
+					"\"/Users/pasky/Documents/j2objc-0.9.8.2.1/include\"",
+					"\"/Volumes/DATA/BeMyEye/nativecrossapp/shared/build/j2objcOutputs/src/main/objc\"",
+				);
 				INFOPLIST_FILE = NativeCrossApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/gsortino/Android/j2objc-0.9.8.2.1/lib",
+					"\"$(PODS_ROOT)/../../shared/build/j2objcOutputs/lib/iosDebug\"",
+					"\"/Users/pasky/Documents/j2objc-0.9.8.2.1/lib\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gsortino.NativeCrossApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -345,8 +368,23 @@
 			baseConfigurationReference = 084EB465585012B171DC2A14 /* Pods-NativeCrossApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"/Users/gsortino/Android/j2objc-0.9.8.2.1/include",
+					/Users/gsortino/TestProject/NativeCrossApp/shared/build/j2objcOutputs/src/main/objc,
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/j2objc-shared-debug\"",
+					"\"${PODS_ROOT}/Headers/Public/j2objc-shared-release\"",
+					"/Users/gsortino/Android/j2objc-0.9.8.2.1/include",
+					"\"/Users/pasky/Documents/j2objc-0.9.8.2.1/include\"",
+					"\"/Volumes/DATA/BeMyEye/nativecrossapp/shared/build/j2objcOutputs/src/main/objc\"",
+				);
 				INFOPLIST_FILE = NativeCrossApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/gsortino/Android/j2objc-0.9.8.2.1/lib",
+					"\"$(PODS_ROOT)/../../shared/build/j2objcOutputs/lib/iosRelease\"",
+					"\"/Users/pasky/Documents/j2objc-0.9.8.2.1/lib\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gsortino.NativeCrossApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

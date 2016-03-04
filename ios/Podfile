@@ -15,3 +15,5 @@ target 'NativeCrossApp' do
     j2objc_shared
 
 end
+
+pod "KRProgressHUD"
