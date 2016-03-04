@@ -10,20 +10,26 @@ import UIKit
 
 class ViewController: UIViewController, ComGsortinoSharedViewMainMvpView {
 
+    let net = Network()
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
         let _mainPresenter = ComGsortinoSharedPresenterMainPresenter()
+
         _mainPresenter.attachViewWithId(self)
-//        _mainPresenter.attachNetworkInterfaceWithComGsortinoSharedNetworkNetworkInterface(ComGsortinoSharedNetworkNetworkInterface!)
+        _mainPresenter.attachNetworkInterfaceWithComGsortinoSharedNetworkNetworkInterface(net)
+
+        _mainPresenter.loadDataWithNSString("google", withNSString: "j2objc")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func showListWithJavaUtilArrayList(objItems: JavaUtilArrayList!) {
         
+        print("objItems: \(objItems)")
     }
 
     func hideProgressIndicator() {
