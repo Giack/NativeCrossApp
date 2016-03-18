@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CC0CCFDE684524C42F7C93AC17CCB228E8497490",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B74EE43FC6AEC148ADEB6917C8F1DF26E470F31E" : 0,
+    "CC0CCFDE684524C42F7C93AC17CCB228E8497490" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "37D2F47D-1E58-4AE4-B62E-7CD8DBD472F3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B74EE43FC6AEC148ADEB6917C8F1DF26E470F31E" : "",
+    "CC0CCFDE684524C42F7C93AC17CCB228E8497490" : "NativeCrossApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NativeCrossApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/NativeCrossApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:giack87\/eventjs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B74EE43FC6AEC148ADEB6917C8F1DF26E470F31E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:giack87\/nativecrossapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC0CCFDE684524C42F7C93AC17CCB228E8497490"
+    }
+  ]
+}

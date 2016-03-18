@@ -4,13 +4,17 @@ plugins {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    compile 'io.reactivex:rxjava:1.1.1'
 }
 
 j2objcConfig {
     // Sets up libraries you depend on
+//    translateJ2objcLibs = ["rxjava-1.1.2-SNAPSHOT.jar"]
     autoConfigureDeps true
     testMinExpectedTests 0
+    targetCompatibility = JavaVersion.VERSION_1_7
+    sourceCompatibility = JavaVersion.VERSION_1_7
 
     // Omit these two lines if you don't configure your Xcode project with CocoaPods
     xcodeProjectDir '../ios'  //  suggested directory name

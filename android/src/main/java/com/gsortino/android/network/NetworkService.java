@@ -51,7 +51,7 @@ public class NetworkService implements NetworkInterface {
             }
         };
         RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint("TEST")
+                .setEndpoint("https://api.github.com")
                 .setLogLevel(RestAdapter.LogLevel.FULL)
                 .setLog(logToTimber)
                 .setClient(client)

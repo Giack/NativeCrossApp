@@ -4,5 +4,35 @@
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
-#/build
+/build
 /captures
+## Build generated
+/ios/build/
+/ios/DerivedData/
+
+## Various settings
+/ios/*.pbxuser
+/ios/!default.pbxuser
+/ios/*.mode1v3
+/ios/!default.mode1v3
+/ios/*.mode2v3
+/ios/!default.mode2v3
+/ios/*.perspectivev3
+/ios/!default.perspectivev3
+/ios/xcuserdata/
+
+## Other
+/ios/*.moved-aside
+/ios/*.xcuserstate
+
+## Obj-C/Swift specific
+/ios/*.hmap
+/ios/*.ipa
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+/ios/Pods

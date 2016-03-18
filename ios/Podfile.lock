@@ -19,4 +19,4 @@ SPEC CHECKSUMS:
   j2objc-shared-release: ae10cbc7fa3ca2183714b2e3a4b0032c6e3744f8
   KRProgressHUD: 5d8ac1811a106d2e5faf2b85c8eaba6214118ab0
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

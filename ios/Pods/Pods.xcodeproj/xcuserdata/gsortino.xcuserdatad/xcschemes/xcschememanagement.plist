@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KRProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-NativeCrossApp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -12,7 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>9847BBFF1DB23221602A98A450A96F4C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B21DD8010261C7A0DA95BCE09D6BB443</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFC5C9FBF7820887C353A649EFD51C1A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

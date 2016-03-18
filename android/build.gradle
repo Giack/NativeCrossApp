@@ -10,6 +10,7 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        generatedDensities = []
     }
     buildTypes {
         release {
@@ -17,12 +18,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
 }
+
 
 dependencies {
     compile project(':shared')
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
+//    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile 'com.android.support:support-v4:23.2.0'
     compile 'com.android.support:support-annotations:23.2.0'
@@ -32,4 +43,5 @@ dependencies {
     compile 'com.squareup.okhttp:okhttp:2.2.0'
     compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
     compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.picasso:picasso:2.5.0'
 }
